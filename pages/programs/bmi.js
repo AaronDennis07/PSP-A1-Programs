@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Typography,InputAdornment,TextField, Button} from '@mui/material'
 
-export default function(props){
+export default function BMI(props){
     const [form,setForm] = useState({
         height: '',
         weight:'',

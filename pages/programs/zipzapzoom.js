@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
 import {Typography,TextField, Button} from '@mui/material'
-export default function DiscountCalculator(props){
+export default function ZipZapZoom(props){
 
     const [form,setForm] = useState({
         number:'',

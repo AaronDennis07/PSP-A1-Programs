@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -25,32 +26,33 @@ export default function Home() {
         PSP A1 Programs
        </p >
         <div className={styles.grid}>
-          <a href="/programs/bmi" className={styles.card}>
+          <Link href="/programs/bmi">
+          <a  className={styles.card}>
             <h2>Program 1 &rarr;</h2>
             <p>BMI Calculator <br/> Given the weight and height of a person. Find the BMI(Body Mass Index) </p>
           </a>
-
-          <a href="/programs/discountcalculator" className={styles.card}>
+          </Link>
+        <Link href="/programs/discountcalculator" >
+          <a className={styles.card}>
             <h2>Program 2 &rarr;</h2>
             <p>Discount Calculator <br/>Given the sale amount, calculate the discount based on the sale amount</p>
           </a>
-    
-          <a
-            href="/programs/zipzapzoom"
-            className={styles.card}
-          >
+          </Link>
+          <Link  href="/programs/zipzapzoom">
+          <a className={styles.card}   >
             <h2>Program 3 &rarr;</h2>
             <p>Zip Zap Zoom <br/>Display a message based on a given number. </p>
           </a>
-
+          </Link>
+          <Link href="/programs/perfectnumber">
           <a
-            href="/programs/perfectnumber"
+            
             className={styles.card}
           >
             <h2>Program 4 &rarr;</h2>
             <p>Find Perfect Number <br/>Given an integer number, check if it a perfect number or not  </p>
           </a>
-
+          </Link>
           
         </div>
       </main>
