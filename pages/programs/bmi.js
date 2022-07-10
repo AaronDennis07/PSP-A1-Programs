@@ -80,7 +80,7 @@ export default function BMI(props){
     
           <div hidden={!form.showBanner}>
           <Typography variant='h5'>BMI Score: <Typography variant='h5' component='span' color={form.color}> {form.bmi}</Typography></Typography>
-          <Typography variant='h5'>Verdict:<Typography component='span' variant='h5' color={form.color}> Yo&apos;re {form.verdict}</Typography></Typography>
+          <Typography variant='h5'>Verdict:<Typography component='span' variant='h5' color={form.color}> You&apos;re {form.verdict}</Typography></Typography>
           </div>
         </div>
     );
