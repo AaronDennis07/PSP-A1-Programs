@@ -31,7 +31,7 @@ export default function BMI(props){
         }
         else if(bmi <= 29.9 && bmi>=25 ){
             color = '#FF8A8A'
-            verdict = 'underweight'
+            verdict = 'overweight'
         }
         else{
             color = 'red'
