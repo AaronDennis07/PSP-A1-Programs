@@ -1,6 +1,7 @@
 import React ,{useState}from 'react'
 import {Typography,TextField, Button} from '@mui/material'
 import Head from 'next/head'
+import Script from 'next/script'
 
 export default function ZipZapZoom(props){
 
@@ -38,8 +39,14 @@ export default function ZipZapZoom(props){
     return(
         <div style={{width:'100%',height:'100%',textAlign:'center'}}>
               <Head>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
-     crossorigin="anonymous"></script>
+            
+        <Script
+   id="Adsense-id"
+   async="true"
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
+    crossOrigin = "anonymous"
+/>
             </Head>
 
             <h1 style={{textAlign:'center'}} >Zip Zap Zoom</h1>
