@@ -1,5 +1,7 @@
 import React ,{useState}from 'react'
 import {Typography,TextField, Button} from '@mui/material'
+import Head from 'next/head'
+
 export default function ZipZapZoom(props){
 
     const [form,setForm] = useState({
@@ -35,6 +37,11 @@ export default function ZipZapZoom(props){
    }
     return(
         <div style={{width:'100%',height:'100%',textAlign:'center'}}>
+              <Head>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
+     crossorigin="anonymous"></script>
+            </Head>
+
             <h1 style={{textAlign:'center'}} >Zip Zap Zoom</h1>
             
             <TextField

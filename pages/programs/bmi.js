@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {Typography,InputAdornment,TextField, Button} from '@mui/material'
+import Head from 'next/head'
 
 export default function BMI(props){
     const [form,setForm] = useState({
@@ -31,7 +32,7 @@ export default function BMI(props){
         }
         else if(bmi <= 29.9 && bmi>=25 ){
             color = '#FF8A8A'
-            verdict = 'overweight'
+            verdict = 'underweight'
         }
         else{
             color = 'red'
@@ -47,6 +48,11 @@ export default function BMI(props){
    }
     return(
         <div style={{width:'100%',height:'100%',textAlign:'center'}}>
+            <Head>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
+     crossorigin="anonymous"></script>
+            </Head>
+
             <h1 style={{textAlign:'center'}} >BMI Calculator</h1>
             
             <TextField
@@ -80,7 +86,7 @@ export default function BMI(props){
     
           <div hidden={!form.showBanner}>
           <Typography variant='h5'>BMI Score: <Typography variant='h5' component='span' color={form.color}> {form.bmi}</Typography></Typography>
-          <Typography variant='h5'>Verdict:<Typography component='span' variant='h5' color={form.color}> You&apos;re {form.verdict}</Typography></Typography>
+          <Typography variant='h5'>Verdict:<Typography component='span' variant='h5' color={form.color}> Yo&apos;re {form.verdict}</Typography></Typography>
           </div>
         </div>
     );

@@ -17,7 +17,8 @@ export default function Home() {
   rel="stylesheet"
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
 />
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
+     crossorigin="anonymous"></script>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
