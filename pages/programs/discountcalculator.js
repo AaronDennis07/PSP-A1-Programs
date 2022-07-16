@@ -49,7 +49,7 @@ export default function DiscountCalculator(props){
    }
     return(
         <div style={{width:'100%',height:'100%',textAlign:'center'}}>
-              <Head>
+              
         
               <Script
    id="Adsense-id"
@@ -58,7 +58,7 @@ export default function DiscountCalculator(props){
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
     crossOrigin = "anonymous"
 />
-            </Head>
+    
 
             <h1 style={{textAlign:'center'}} >Discount Calculator</h1>
             

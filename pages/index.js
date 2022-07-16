@@ -19,18 +19,18 @@ export default function Home() {
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
 />
 
-        <Script
+
+        
+        
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Script
    id="Adsense-id"
    async="true"
    strategy="beforeInteractive"
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
     crossOrigin = "anonymous"
 />
-        
-        
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className={styles.main}>
        <p className={styles.title}>
         PSP A1 Programs

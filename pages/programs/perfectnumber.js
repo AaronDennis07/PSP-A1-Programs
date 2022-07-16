@@ -47,7 +47,7 @@ export default function PerfectNumber(props){
    }
     return(
         <div style={{width:'100%',height:'100%',textAlign:'center'}}>
-              <Head>
+     
       
               <Script
    id="Adsense-id"
@@ -56,7 +56,7 @@ export default function PerfectNumber(props){
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813609620822362"
     crossOrigin = "anonymous"
 />
-            </Head>
+           
 
             <h1 style={{textAlign:'center'}} >Perfect Number</h1>
             
